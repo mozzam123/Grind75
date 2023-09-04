@@ -1,23 +1,12 @@
 class Solution:
-    def isValid(self, s) :
-        stack = []
-        pairs = {
-            '(': ')',
-            '{': '}',
-            '[': ']'
-        }
-
-        for bracket in s:
-            if bracket in pairs:
-                stack.append(bracket)
-            elif len(stack) == 0 or \
-                bracket != pairs[stack.pop()]:
-                return False
-        
-        return len(stack) == 0
-            
-
+    def twoSum(self, nums, target):
+        for i in range(len(nums)):
+            for j in range(i + 1, len(nums)):  # Start from the next index after i
+                summed = nums[i] + nums[j]
+                if summed == target:
+                    return [i, j]
+                
 
 
 obj = Solution()
-obj.isValid("()[]{}")
+obj.twoSum([2,7,11,15], 9)

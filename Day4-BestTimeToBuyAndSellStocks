@@ -1,0 +1,8 @@
+class Solution:
+    def maxProfit(self, prices):
+        smallest = []
+        for i in prices:
+            print(i)
+            
+obj = Solution()
+obj.maxProfit([7,1,5,3,6,4])

@@ -7,4 +7,5 @@ Questions
 <li>Day 3 - Valid Palindrome </li>
 <li>Day 4 - Best Time To Buy And SellS tocks </li>
 <li>Day 5 - Valid Anagram </li>
+<li>Day 6 - Containes Duplicate </li>
 

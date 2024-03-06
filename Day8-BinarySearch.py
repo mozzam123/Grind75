@@ -13,10 +13,6 @@ class Solution:
         return -1
         
 
-
-
-
-    
 obj = Solution()
 obj.search([-1,0,3,5,9,12], 2)
 

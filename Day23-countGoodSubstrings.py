@@ -16,9 +16,6 @@ def countGoodSubstrings(arr):
     print(count)
 
     
-        
-
-
 
 countGoodSubstrings("aababcabc")
 

@@ -17,7 +17,7 @@ def countGoodSubstrings(arr):
 
     
 
-countGoodSubstrings("aababcabc")
+countGoodSubstrings("abcabcbb")
 
 
 

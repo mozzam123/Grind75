@@ -1,3 +1,11 @@
+""" 
+Print numbers from 1 to n in order
+eg. 1,2,3,4, 5
+"""
+
+
+
+
 def print_numbers(current, n):
     if current > n:
         return
